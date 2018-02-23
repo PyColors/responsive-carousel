@@ -1,6 +1,6 @@
 # Responsive Carousel
 
-Responsive Carousel is a mobile-first carousel provider by Pixabay API, with React.
+Responsive Carousel is a mobile-first carousel provider by Flickr API, with React.
 
 ## How it should work
 
@@ -15,14 +15,11 @@ Responsive Carousel is a mobile-first carousel provider by Pixabay API, with Rea
   - Accessibility
   - Performance
   - Cross browser compatibility
-  - Responsiveness
+  - Responsive
   - Dependency management
   - Test
-  - ARIA 
+  - BEM CSS
  
- 
- 
-
  
 ### Installation
 

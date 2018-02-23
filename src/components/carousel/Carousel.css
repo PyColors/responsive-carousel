@@ -1,0 +1,21 @@
+.carousel {
+  position: absolute;
+  width: 90%;
+  margin: 30px 5%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carousel_figcaption {
+  margin: 0 0 30px;
+  font-size: 30px;
+}
+
+.carousel__item {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.carousel__footer {
+}
