@@ -1,15 +1,23 @@
 language: node_js
 
+node_js:
+  - "stable"
+  
 os: osx
 
 node_js:
   - 10
-  
+
 script:
-  - yarn build
   - yarn test
+  - yarn build
 
 cache:
   yarn: true
   directories:
     - node_modules
+    
+notifications:
+  email:
+    on_failure: change
+    
